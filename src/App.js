@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import  AddAllocating  from "./components/equipmentManagement/Addallocating";
+import AddEquipment from "./components/equipmentManagement/Addequipment";
+import Equipmentview from "./components/equipmentManagement/viewequipment";
+import Updateequipment from "./components/equipmentManagement/updateequipment";
+import Addmonitor from "./components/equipmentManagement/Addmonitor";
+import Viewmonitor from "./components/equipmentManagement/viewmonitor";
+import Viewallocating from "./components/equipmentManagement/viewallocating";
+import Header from "./Header";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+  return ( 
+  <div className="App">
+      <Addmonitor/>
+      
     </div>
-  );
+  )
+ 
 }
 
 export default App;
